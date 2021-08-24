@@ -98,9 +98,58 @@ System.out.println("Hello World");
 
 ### variable
 ```
-
+String - stores text, such as "Hello". String values are surrounded by double quotes
+int - stores integers (whole numbers), without decimals, such as 123 or -123
+float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+boolean - stores values with two states: true or false
 ```
+```
+> To create a variable, you must specify the type and assign it a value:
+ex:
+type variable = value;
 
+
+> A demonstration of how to declare variables of other types:
+ex:
+int myNum = 5;
+float myFloatNum = 5.99f;
+char myLetter = 'D';
+boolean myBool = true;
+String myText = "Hello";
+
+
+> Create a variable called name of type String and assign it the value "John":
+ex:
+String name = "John";
+System.out.println(name);
+
+
+> Create a variable called myNum of type int and assign it the value 15:
+ex:
+int myNum = 15;
+System.out.println(myNum);
+
+
+> You can also declare a variable without assigning the value, and assign the value later:
+ex:
+int myNum;
+myNum = 15;
+System.out.println(myNum);
+
+
+> Note that if you assign a new value to an existing variable, it will overwrite the previous value:
+ex:
+int myNum = 15;
+myNum = 20;  // myNum is now 20
+System.out.println(myNum);
+
+> However, you can add the final keyword if you don't want others (or yourself) to overwrite existing 
+values (this will declare the variable as "final" or "constant", which means unchangeable and read-only):
+ex:
+final int myNum = 15;
+myNum = 20;  // will generate an error: cannot assign a value to a final variable
+```
 
 
 
