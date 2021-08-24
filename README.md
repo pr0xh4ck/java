@@ -2,7 +2,7 @@
      
   - [Basic](#basic)
     - [Intro](#intro)
-    - [](#)
+    - [Comment](#comment)
 
 
 
@@ -66,6 +66,40 @@ JRE = Java runtime environment
 ```
 
 
+
+
+
+
+
+
+
+### comment
+```
+> Single-line comments start with two forward slashes (//).
+ex: 
+// This is a comment
+System.out.println("Hello World");
+
+
+> Multi-line comments start with /* and ends with */.
+ex: 
+/* The code below will print the words Hello World
+to the screen, and it is amazing */
+System.out.println("Hello World");
+```
+
+
+
+
+
+
+
+
+
+### variable
+```
+
+```
 
 
 
