@@ -37,6 +37,7 @@ It is owned by Oracle, and more than 3 billion devices run Java.
 
 > Path
 ```
+CMD:
 set path=C:\Program Files\Java\jdk-16.0.2\bin;%path%;
 ```
 
