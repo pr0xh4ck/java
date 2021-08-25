@@ -4,7 +4,7 @@
     - [Intro](#intro)
     - [Comment](#comment)
 
-
+  - [Networking](#networking)
 
 
 
@@ -171,16 +171,32 @@ myNum = 20;  // will generate an error: cannot assign a value to a final variabl
 
 
 
+### networking
+```
+> Java Networking intro.
+
+Java Networking is a concept of connecting two or more computing devices together so that we can share resources.
+Java socket programming provides facility to share data between different computing devices.
 
 
+> Advantage
+
+- Sharing resources
+- Centralize software management
 
 
+> The java.net support 2 trotocols
 
-
-
-
-
-
+- TCP: Transmission Control Protocol provides reliable communication between the sender and receiver. 
+       TCP is used along with the Internet Protocol referred as TCP/IP
+       
+- UDP: User Datagram Protocol provides a connection-less protocol service by allowing packet of data to be 
+       transferred along two or more nodes.The User Datagram Protocol, or UDP, is a communication protocol
+       used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups. 
+       It speeds up communications by not formally establishing a connection before data is transferred. 
+       This allows data to be transferred very quickly, but it can also cause packets to become lost in transit — 
+       and create opportunities for exploitation in the form of DDoS attacks.       
+```
 
 
 
