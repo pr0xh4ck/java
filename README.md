@@ -35,6 +35,15 @@ It is owned by Oracle, and more than 3 billion devices run Java.
 
 
 
+> Path
+```
+set path=C:\Program Files\Java\jdk-16.0.2\bin;%path%;
+```
+
+
+
+
+
 > Why you should learn Java in 2021 ?
 ```
 - Mobile applications (specially Android apps)
