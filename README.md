@@ -49,7 +49,7 @@ set path=C:\Program Files\Java\jdk-16.0.2\bin;%path%;
 
 
 ### first-code
-> Write your first code using notepad
+> Write your first code using Notepad
 ```
 import java.lang.*;
 
