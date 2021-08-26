@@ -68,6 +68,25 @@ class FistCode
 
 
 
+
+
+
+> Compile your code using CMD
+```
+C\:> javac FirstCode.java
+```
+
+
+
+
+
+
+
+
+
+
+
+
 > Why you should learn Java in 2021 ?
 ```
 - Mobile applications (specially Android apps)
