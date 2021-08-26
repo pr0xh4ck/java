@@ -2,7 +2,9 @@
      
   - [Basic](#basic)
     - [Intro](#intro)
+    - [First code](#first-code)
     - [Comment](#comment)
+    - [Variable](#variable)
 
   - [Networking](#networking)
 
@@ -39,6 +41,27 @@ It is owned by Oracle, and more than 3 billion devices run Java.
 ```
 CMD:
 set path=C:\Program Files\Java\jdk-16.0.2\bin;%path%;
+```
+
+
+
+
+
+
+### first-code
+> Write your first code using notepad
+```
+import java.lang.*;
+
+class FistCode
+{
+
+ public static void main(String arg[])
+ {
+ System.out.println("Hello World !");
+ }
+
+}
 ```
 
 
