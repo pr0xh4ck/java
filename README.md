@@ -6,7 +6,8 @@
     - [Comment](#comment)
     - [Variable](#variable)
 
-  - [Networking](#networking)
+ - [Advanced](#advanced)
+   - [Networking](#networking)
 
 
 
@@ -213,22 +214,24 @@ myNum = 20;  // will generate an error: cannot assign a value to a final variabl
 
 
 
-### networking
-```
-> Java Networking intro.
+### advanced
 
+### networking
+
+> Java Networking intro.
+```
 Java Networking is a concept of connecting two or more computing devices together so that we can share resources.
 Java socket programming provides facility to share data between different computing devices.
-
+```
 
 > Advantage
-
+```
 - Sharing resources
 - Centralize software management
-
+```
 
 > The java.net support 2 trotocols
-
+```
 - TCP: Transmission Control Protocol provides reliable communication between the sender and receiver. 
        TCP is used along with the Internet Protocol referred as TCP/IP
        
@@ -239,7 +242,14 @@ Java socket programming provides facility to share data between different comput
        This allows data to be transferred very quickly, but it can also cause packets to become lost in transit — 
        and create opportunities for exploitation in the form of DDoS attacks.       
 ```
-
-
+> Network terminology
+```
+- IP Address
+- Protocol
+- Port Number
+- MAC Address
+- Connection-oriented and connection-less protocol
+- Socket
+```
 
 
