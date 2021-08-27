@@ -278,3 +278,12 @@ ex:
 - POP 
 ```
 
+
+> Port number
+```
+- The port number is used to uniquely identify different applications. 
+- It acts as a communication endpoint between applications.
+- The port number is associated with the IP address for communication between two applications.
+- There are 65,535 possible port numbers.
+```
+
