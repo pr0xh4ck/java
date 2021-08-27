@@ -287,3 +287,27 @@ ex:
 - There are 65,535 possible port numbers.
 ```
 
+
+> MAC address
+```
+- MAC (Media Access Control) address is a unique identifier of NIC (Network Interface Controller).
+- A network node can have multiple NIC but each with unique MAC address.
+- For example, an ethernet card may have a MAC address of 00:0d:83::b1:c0:8e.
+```
+
+
+> Connection-oriented and connection-less protocol
+```
+- In connection-oriented protocol, acknowledgement is sent by the receiver. 
+  So it is reliable but slow. The example of connection-oriented protocol is TCP.
+
+- But, in connection-less protocol, acknowledgement is not sent by the receiver. 
+  So it is not reliable but fast. The example of connection-less protocol is UDP.
+```
+
+
+> Socket
+```
+- A socket is an endpoint between two way communications.
+```
+
