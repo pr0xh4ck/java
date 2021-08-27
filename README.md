@@ -224,11 +224,13 @@ Java Networking is a concept of connecting two or more computing devices togethe
 Java socket programming provides facility to share data between different computing devices.
 ```
 
+
 > Advantage
 ```
 - Sharing resources
 - Centralize software management
 ```
+
 
 > The java.net support 2 trotocols
 ```
@@ -242,6 +244,8 @@ Java socket programming provides facility to share data between different comput
        This allows data to be transferred very quickly, but it can also cause packets to become lost in transit — 
        and create opportunities for exploitation in the form of DDoS attacks.       
 ```
+
+
 > Network terminology
 ```
 - IP Address
@@ -252,4 +256,25 @@ Java socket programming provides facility to share data between different comput
 - Socket
 ```
 
+
+> IP address
+```
+- IP address is a unique number assigned to a node of a network e.g. 192.168.0.1 . 
+- It is composed of octets that range from 0 to 255.
+- It is a logical address that can be changed.
+```
+
+
+> Protocol
+```
+A protocol is a set of rules followed for communication.
+ex:
+
+- HTTP
+- TCP
+- FTP
+- Telnet
+- SMTP
+- POP 
+```
 
