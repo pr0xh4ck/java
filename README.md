@@ -8,6 +8,7 @@
     - [First code](#first-code)
     - [Comment](#comment)
     - [Variable](#variable)
+    - [Data types](#data-types)
 
  - [Advanced](#advanced)
    - [Networking](#networking)
@@ -224,6 +225,60 @@ ex:
 final int myNum = 15;
 myNum = 20;  // will generate an error: cannot assign a value to a final variable
 ```
+
+
+
+
+
+
+
+
+
+
+### data-types
+
+
+Data Type	     | Default Value     | Default size
+--------- | ------------------ | ---------------------
+boolean | false | 1 bit 
+char	   | '\u0000' | 2 byte
+byte |	0 |1 byte
+short |	0	|2 byte
+int	|0	|4 byte
+long	|0L	|8 byte
+float |0.0f |4 byte
+double| 0.0d | 8 byte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
