@@ -137,7 +137,7 @@ It has java class library to execute java code.
 
 > JVM
 ```
-Basically it's a interpreter. So JVM execute java code.
+Basically it's a interpreter convert byte code to machine code. So JVM convert the code first then execute code.
 ```
 
 
