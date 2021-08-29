@@ -123,6 +123,23 @@ JRE = Java runtime environment
 
 
 
+> JDK
+```
+Its use for code compiling, debugging & developing java program.
+```
+
+
+> JRE
+```
+It has java class library to execute java code.
+```
+
+
+> JVM
+```
+Basically it's a interpreter. So JVM execute java code.
+```
+
 
 
 
