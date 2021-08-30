@@ -252,6 +252,44 @@ double| 0.0d | 8 byte
 
 
 
+> Check storage capability, Now go to your terminal
+```
+C:\\java>javap java.lang.Integer 
+
+C:\\java>javap java.lang.Float
+
+C:\\java>javap java.lang.Double
+
+C:\\java>javap java.lang.Boolean
+```
+
+
+> Now pick this 
+```
+MIN_VALUE
+
+MAX_VALUE
+
+BYTES
+```
+
+
+> Now write your code for testing
+```
+import java.lang.*;
+
+public class First{
+ 
+public static void main(String arg[]){
+  
+    System.out.println("Min value:" + Integer.MIN_VALUE);
+    System.out.println("Max value: " + Integer.MAX_VALUE);
+    System.out.println("Bytes: " + Integer.BYTES);
+    
+  }
+}
+```
+
 
 
 
