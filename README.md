@@ -12,6 +12,7 @@
 
  - [Advanced](#advanced)
    - [Networking](#networking)
+   - [SQLite](#sqlite)
 
 
 
@@ -425,3 +426,19 @@ ex:
 - WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection.
 ```
 
+
+
+
+
+
+----
+
+
+
+
+
+
+
+### sqlite
+
+- [download](https://sqlite.org/download.html)
