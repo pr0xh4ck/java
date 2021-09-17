@@ -307,8 +307,10 @@ post++  ,   post--
 ```
 
 - Arithmatic
+> it's supported any types of data without "%"
 ```java
-+, -, *, /
+/, *, %   //higher precedence
++, -
 ```
 
 - Bitwise
@@ -326,6 +328,12 @@ post++  ,   post--
 &&, ||, !
 ```
 
+- Expression example
+```java
+5+5/2  == 7.5  //higher precedence of "/"
+
+(5+5)/2 == 5  //higher precedence of "()" than "/" 
+```
 
 
 
@@ -341,9 +349,8 @@ post++  ,   post--
 
 
 
-
-
-
+---
+---
 ### advanced
 
 ### networking
