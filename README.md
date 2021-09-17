@@ -9,6 +9,7 @@
     - [Comment](#comment)
     - [Variable](#variable)
     - [Data types](#data-types)
+    - [Operators](#operators)
 
  - [Advanced](#advanced)
    - [Networking](#networking)
@@ -44,7 +45,7 @@ It is owned by Oracle, and more than 3 billion devices run Java.
 
 
 > Path
-```
+```cmd
 CMD:
 set path=C:\Program Files\Java\jdk-16.0.2\bin;%path%;
 ```
@@ -56,7 +57,7 @@ set path=C:\Program Files\Java\jdk-16.0.2\bin;%path%;
 
 ### first-code
 > Write your first code using Notepad
-```
+```java
 import java.lang.*;
 
 class FistCode
@@ -149,7 +150,7 @@ Basically it's a interpreter convert byte code to machine code. So JVM convert t
 
 
 ### comment
-```
+```java
 > Single-line comments start with two forward slashes (//).
 ex: 
 // This is a comment
@@ -266,7 +267,7 @@ C:\\java>javap java.lang.Boolean
 ```
 
 
-> Now pick this 
+> Now pick this one
 ```
 MIN_VALUE
 
@@ -277,7 +278,7 @@ BYTES
 
 
 > Now write your code for testing
-```
+```java
 import java.lang.*;
 
 public class First{
@@ -298,18 +299,32 @@ public static void main(String arg[]){
 
 
 
+### operators
+- increment & decrement
+```java
+post++  ,   post--
+++pre   ,   --pre
+```
 
+- Arithmatic
+```java
++, -, *, /
+```
 
+- Bitwise
+```java
+&, ~, ^, <<, >>, >>>
+```
 
+- Relational
+```java
+<, >, <=, >=, ==, !=, |
+```
 
-
-
-
-
-
-
-
-
+- Logical
+```java
+&&, ||, !
+```
 
 
 
